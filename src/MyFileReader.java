@@ -16,7 +16,9 @@ public class MyFileReader
             }
             fr.close();    //closes the stream and release the resources
             System.out.println("Contents of File: ");
-            for (String s : array) System.out.println(s); // shows the array content
+            for (String s : array) {
+                System.out.println(s); // shows the array content
+            }
         } catch (IOException e) {
             e.printStackTrace();
         }
